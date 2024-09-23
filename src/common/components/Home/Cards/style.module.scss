@@ -1,0 +1,32 @@
+.wrapper {
+  margin-top: 80px;
+  .title {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+  }
+
+  .cards {
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .card {
+      width: 300px;
+      height: 250px;
+      background: #f9f9f9;
+
+      .card_content {
+        padding: 48px 48px;
+
+        .card_title {
+          font-size: 20px;
+          color: #2a254b;
+          font-weight: 400;
+          margin-bottom: 15px;
+        }
+      }
+    }
+  }
+}

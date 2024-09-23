@@ -1,16 +1,24 @@
+import Cards from "./Cards/Cards";
 import styles from "./style.module.scss";
 
 const Home = () => {
   return (
-    <div className={styles.banner}>
-      <div className={styles.banner_card}>
-        <p className={styles.title_card}>
-          Luxury homeware for people who love timeless design quality
-        </p>
-        <span>Shop the new Spring 2022 collection today</span>
-        <button className={styles.button}>View collection</button>
+    <>
+      <div className={styles.banner}>
+        <div className={styles.banner_card}>
+          <p className={styles.title_card}>
+            Luxury homeware for people who love timeless design quality
+          </p>
+          <span>Shop the new Spring 2022 collection today</span>
+          <button className={styles.button}>View collection</button>
+        </div>
       </div>
-    </div>
+      <div className={styles.wrapper}>
+        <div className={styles.container}>
+          <Cards />
+        </div>
+      </div>
+    </>
   );
 };
 

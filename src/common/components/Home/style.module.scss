@@ -36,6 +36,12 @@
       font-size: 16px;
       border-radius: 10px;
       box-shadow: 5px 5px 5px -5px rgba(34, 60, 80, 0.295);
+      cursor: pointer;
     }
   }
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
 }
